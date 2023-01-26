@@ -1,3 +1,18 @@
+:root {
+  --color-primary: #f69200;
+  --color-light-100: #f1f1f1;
+  --color-light-200: #f9fafb;
+  --color-dark-700: #3a3a3a;
+  --color-dark-900: #0e0e0e;
+
+  --border-success: 1px solid #617c42;
+  --border-error: 1px solid #a33a3a;
+  --border-focus: 1px solid #4c699b;
+
+  --ff-logo: 'Bungee Inline', cursive;
+  --ff-primary: 'Poppins', sans-serif;
+}
+
 /* Box sizing rules */
 *,
 *::before,
