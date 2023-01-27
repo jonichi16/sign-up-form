@@ -154,7 +154,9 @@ img {
 
 .form-row {
   display: flex;
-  gap: 5em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 75%;
 }
 
 .form-input {
@@ -163,7 +165,9 @@ img {
 }
 
 .form-input:nth-child(1),
-.form-input:nth-child(2) {
+.form-input:nth-child(2),
+.form-input:nth-child(3),
+.form-input:nth-child(4) {
   padding-bottom: 1em;
 }
 
