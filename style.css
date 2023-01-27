@@ -1,7 +1,7 @@
 :root {
   --color-primary: #f69200;
-  --color-light-100: #f1f1f1;
-  --color-light-200: #f9fafb;
+  --color-light-100: #f9fafb;
+  --color-light-200: #f1f1f1;
   --color-dark-700: #3a3a3a;
   --color-dark-900: #0e0e0e;
 
@@ -82,7 +82,9 @@ select {
 
 .wrapper {
   display: flex;
+  background-color: var(--color-light-200);
   font-family: var(--ff-primary);
+  align-items: center;
 }
 
 .image-section {
@@ -117,4 +119,28 @@ img {
 
 .credit > a {
   color: var(--color-light-200);
+}
+
+.primary-header,
+.secondary-header,
+.invite {
+  color: var(--color-dark-900);
+  line-height: 1.2;
+  font-weight: 700;
+  padding-bottom: 1em;
+  font-size: 1.25rem;
+}
+
+.invite {
+  padding-bottom: 2em;
+}
+
+.form {
+  background-color: var(--color-light-100);
+  padding: 1em 0;
+}
+
+.container {
+  width: 70%;
+  padding: 0 3em;
 }
