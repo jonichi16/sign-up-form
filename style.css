@@ -156,7 +156,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 75%;
+  width: 75%;
 }
 
 .form-input {
@@ -188,4 +188,30 @@ input:focus {
   outline: 0;
   border: var(--border-focus);
   box-shadow: 2px 2px 5px #181818ad;
+}
+
+.cta {
+  padding-top: 2em;
+}
+
+.submit {
+  background-color: var(--color-primary);
+  color: var(--color-light-100);
+  font-weight: 700;
+  padding: 0.75em;
+  width: 16em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #18181863;
+}
+
+.log-in {
+  padding-top: 1em;
+}
+
+.cta a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-primary);
 }
